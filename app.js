@@ -3,8 +3,9 @@ const path= require ("path");
 const app= express();
 
 
-let puerto= 3060
-app.listen (puerto, () => {
+const port= process.env.PORT || 3001;
+
+app.listen (port, () => {
     console.log("Servidor corriendo en el puerto " + puerto)
 });
 
