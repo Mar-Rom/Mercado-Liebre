@@ -336,6 +336,7 @@ main #main-form-register #titular-cuenta, main #main-form-login #titular-cuenta{
         color: white;
         font-size: 20px;
         width: 80%;
+        cursor: pointer; 
         transition: all 0.5s;
     }
 
@@ -583,6 +584,11 @@ main #main-form-register #titular-cuenta, main #main-form-login #titular-cuenta{
     }
 
     #main-form-register section{
+        padding: 0px 200px 0px 200px;
+        /* border: 1px solid red; */
+    }
+
+    #main-form-login section{
         padding: 0px 200px 0px 200px;
         /* border: 1px solid red; */
     }
